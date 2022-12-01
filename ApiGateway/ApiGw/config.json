@@ -1,0 +1,52 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{version}/catalog/list",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "filmoxiapi.saralonur.com"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{version}/c/list",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/{version}/catalog/detail/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "filmoxiapi.saralonur.com"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{version}/c/detail/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/{version}/catalog/typelist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "filmoxiapi.saralonur.com"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{version}/c/typelist",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/{version}/catalog/yearlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "filmoxiapi.saralonur.com"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{version}/c/yearlist",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ]
+}
