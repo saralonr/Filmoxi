@@ -1,3 +1,3 @@
 # Filmoxi
 
-Microservis mimarisi ile geliştirilen film sitesi projesidir. 
+Mikroservis mimarisi ile geliştirilen film sitesi projesidir. 
